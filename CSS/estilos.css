@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+}
+.header {
+    overflow: hidden;
+    border: 2px;
+    padding: 20px;
+    margin: 5px;
+    display:block;
+    height: 200px;
+}
+.header .logo {
+    color: white;
+    font-family: 'Hurricane', cursive;
+    font-size: 55px;
+}
+.header .sublogo {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    display: inline;
+    }
+.header .navegador ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    }
+.header .navegador ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.texto {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex; 
+    text-align: center;
+}    
+.texto {   
+background-image: url(../Assets/aerea.JPG);
+background-size: cover;
+background-position: center;
+width: 60cm;
+height: 40cm;
+overflow: hidden;
+}
+.texto .titulo {
+    color: black;
+    text-align: center;
+}
+.texto .titulo .parrafo {
+    color: black;
+    text-align: center;
+}
+.pie {
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+div h2 {
+    color: white;
+}
+fieldset {
+    color: white;
+}
+.grid-containter {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px
+}
+.grid-item {
+width: 400px;
+}
+.produccionylargo h2 h3 {
+    color: white;
+}
+div h3 {
+    color: white;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    gap: 10px;
+}
+.grid-item2 {
+    width: 200px
+}
+.biografia {
+    display: flex;
+    justify-content: center;
+   margin: auto;
+    padding: 5cm;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texto h3 {
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding: 2 cm;
+}
